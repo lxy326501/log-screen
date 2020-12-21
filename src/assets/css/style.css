@@ -1,0 +1,237 @@
+/* 大屏标题 */
+#headers {
+	margin-top: -25px;
+	height: 10%;
+}
+.title {
+	font-size: 32px;
+	padding: 1px;
+	color: #b6dbf5;
+	font-weight: bold;
+}
+/* .timeline {
+	width:160px;height:70px;position: relative;left: 1125px;top: -75px;font-size: 18px;font-weight: bold;color: #b6dbf5;
+} */
+
+/* 安全状态统计 */
+.views_security_status {
+	width: 100%;
+	height: 100%;
+}
+#security_status {
+	width: 46%;
+	height: 58%;
+	margin-left: 525px;
+	margin-top: -140px;
+	background-color: #00000061;
+}
+/* 恶意攻击数 */
+.m_day  {
+	position: absolute;
+	font-size: 25px;
+	color: #ffffff;
+	width: 160px;
+	top: 125px;
+	left: 560px;
+	text-align: center;
+	color: #b6dbf5;
+}
+.b_day  {
+	position: absolute;
+	font-size: 25px;
+	color: #ffffff;
+	width: 160px;
+	top: 125px;
+	left: 770px;
+	text-align: center;
+	color: #b6dbf5;
+}
+
+.m_week  {
+	position: absolute;
+	font-size: 25px;
+	color: #ffffff;
+	width: 160px;
+	top: 125px;
+	left: 990px;
+	text-align: center;
+	color: #b6dbf5;
+}
+.b_week  {
+	position: absolute;
+	font-size: 25px;
+	color: #ffffff;
+	width: 160px;
+	top: 125px;
+	left: 1190px;
+	text-align: center;
+	color: #b6dbf5;
+}
+
+.d_m_day {
+	width:160px;
+	height:120px;
+	font-size: 20px;
+	text-align: center;
+}
+.d_m_week {
+	width:160px;
+	height:120px;
+	text-align: center;
+}
+.d_b_week {
+	width:160px;
+	height:120px;
+	text-align: center;
+}
+.d_b_week {
+	width:160px;
+	height:120px;
+	text-align: center;
+}
+
+/* 异常告警日志实时列表 */
+#relatime_logs {
+	position: absolute;
+	width: 850px;
+	height: 350px;
+	top: 700px;
+	left: 540px;
+}
+.relatime_log_titles {
+	position: relative;
+	left: 30px;
+	top: 30px;
+	font-size: 16px;
+	text-align: left;
+	color: #b6dbf5;
+}
+.decoration1 {
+	position: absolute;
+	left: 180px;
+	top: 70px;
+	width:150px;
+	height:150px;
+	color: #55ff7f;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+/* 检测统计 */
+#dection_statistics{
+	position: absolute;
+	width: 495px;
+	height: 350px;
+	top: 700px;
+	left: 1405px;
+}
+.dection_statistics_title {
+	position: relative;
+	left: 30px;
+	top: 30px;
+	font-size: 16px;
+	text-align: left;
+	color: #b6dbf5;
+}
+
+/* 主机访问统计 */
+#visit_statistics {
+	position: absolute;
+	width: 495px;
+	height: 350px;
+	top: 698px;
+	left: 30px;
+}
+.visit_statistics_title {
+	position: relative;
+	left: 30px;
+	top: 30px;
+	font-size: 16px;
+	text-align: left;
+	color: #b6dbf5;
+}
+
+/* 异常告警统计 */
+#abnormal_alarm {
+	position: absolute;
+	width: 495px;
+	height: 350px;
+	top: 340px;
+	left: 30px;
+}
+.abnormal_alarm_title{
+	position: relative;
+	left: 30px;
+	top: 30px;
+	font-size: 16px;
+	text-align: left;
+	color: #b6dbf5;
+}
+.decoration {
+	width:120px;
+	height:120px;
+	color: #ff0000;
+	position: relative;
+	left: 192px;
+	top: 98px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+
+/* 黑明单告警 */
+#blacklist_alarm {
+	position: absolute;
+	width: 495px;
+	height: 300px;
+	top: 95px;
+	left: 1405px;
+}
+.blacklist_alarm_title {
+	position: relative;
+	left: 30px;
+	top: 30px;
+	font-size: 16px;
+	text-align: left;
+	color: #b6dbf5;
+}
+
+/* 异常告警趋势 */
+#alarm_tendency {
+	position: absolute;
+	width: 495px;
+	height: 230px;
+	top: 95px;
+	left: 30px;
+}
+.alarm_tendency_title {
+	position: relative;
+	left: 30px;
+	top: 30px;
+	font-size: 16px;
+	text-align: left;
+	color: #b6dbf5;
+}
+
+/* 黑名单告警饼状图 */
+#blacklist_cake {
+	position: absolute;
+	width: 495px;
+	height: 270px;
+	top: 410px;
+	left: 1405px;
+}
+.blacklist_cake_title {
+	position: relative;
+	left: 30px;
+	top: 30px;
+	font-size: 16px;
+	text-align: left;
+	color: #b6dbf5;
+}
+
+.workshop_saturation {
+	position: absolute;
+	left: 500px;
+	top: 200px;
+}
